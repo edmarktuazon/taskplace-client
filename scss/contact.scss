@@ -1,0 +1,127 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=poppins&display=swap");
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+$primary__clr: #fff;
+
+$secondary__clr: #fbbf24;
+$darker__clr: #414c64;
+$semi__darker__clr: #a3a3a3;
+$bold__dark: #000;
+$danger__clr: #e90404;
+// font fam
+$font__poppins: "Poppins", sans-serif;
+//transition
+$main__transition: all 300ms ease-in-out;
+//grid
+$template__grid: 2fr 1fr;
+$grid__columns: 1fr;
+.contact__container {
+	display: grid;
+	grid-template-columns: $template__grid;
+	width: 100%;
+
+	iframe {
+		width: 100%;
+		height: 100%;
+		max-height: 62rem;
+		border: none;
+	}
+	.contact__form {
+		background: $darker__clr;
+		width: 100%;
+
+		h3 {
+			color: $primary__clr;
+			text-align: center;
+			font-family: $font__poppins;
+			font-size: 2.188rem;
+
+			span {
+				color: $secondary__clr;
+			}
+		}
+		form {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			margin: 3.125rem 3.125rem;
+			input,
+			textarea,
+			select {
+				background: $primary__clr;
+				border: none;
+				display: block;
+				margin: 0.938rem 0;
+				padding: 0.938rem;
+				font-family: $font__poppins;
+				outline-color: $secondary__clr;
+				color: $bold__dark;
+			}
+			#err-msg-name,
+			#err-msg-phone,
+			#err-msg-email,
+			#err-msg-textarea,
+			#err-msg-subject {
+				color: $danger__clr;
+				font-family: $font__poppins;
+				margin: 0;
+				padding: 0;
+				font-size: 0.875rem;
+			}
+
+			button {
+				margin: 0.938rem 0;
+				padding: 0.938rem;
+				background: $secondary__clr;
+				cursor: pointer;
+				color: $primary__clr;
+				font-family: $font__poppins;
+				font-size: 1rem;
+				transition: $main__transition;
+				border: none;
+
+				&:hover {
+					opacity: 0.9;
+				}
+			}
+			input[type="button"] {
+				background: transparent;
+				border: none;
+				color: $primary__clr;
+				font-family: $font__poppins;
+				font-size: 0.875rem;
+				cursor: pointer;
+				text-decoration: underline;
+				display: flex;
+				padding: 0;
+				width: 6.25rem;
+				transition: $main__transition;
+				&:hover {
+					color: $secondary__clr;
+					transition: $main__transition;
+				}
+			}
+		}
+	}
+}
+// media queries
+// 992px ;large tablet view
+@media (max-width: 62rem) {
+	.contact__container {
+		display: grid;
+		grid-template-columns: $grid__columns;
+
+		iframe {
+			height: 50.938rem;
+		}
+		// .contact__form {
+		// 	form {
+		// 		margin: 3.125rem 3.125rem;
+		// 	}
+		// }
+	}
+}

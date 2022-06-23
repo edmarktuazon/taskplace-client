@@ -1,0 +1,138 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.about__container {
+  background: url("../assets/images/about-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 3.125rem 0 0 auto;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.about__container .about__image {
+  padding: 1.875rem;
+}
+
+.about__container .about__image img {
+  width: 100%;
+  max-width: 28.125rem;
+}
+
+.about__container .about__description {
+  text-align: center;
+}
+
+.about__container .about__description h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.about__container .about__description h3 span {
+  color: #fbbf24;
+}
+
+.about__container .about__description p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.about__container form {
+  margin: 3.125rem;
+  position: relative;
+}
+
+.about__container form button {
+  cursor: pointer;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  height: 2.8rem;
+  border: 0.125rem solid #fbbf24;
+  width: 10.625rem;
+  font-size: 1rem;
+  background: #fbbf24;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.about__container form button:hover {
+  border: 0.125rem solid #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background: none;
+}
+
+@media (max-width: 62rem) {
+  .about__container {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    display: grid;
+  }
+  .about__container .about__description {
+    margin: 3.125rem 0.625rem;
+  }
+  .about__container .about__description p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 36.75rem) {
+  .about__container {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    display: grid;
+  }
+  .about__container .about__description {
+    margin: 0;
+  }
+  .about__container .about__description h3 {
+    font-size: 2rem;
+  }
+  .about__container .about__description p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 30.5rem) {
+  .about__container {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    display: grid;
+  }
+  .about__container .about__description {
+    margin: 0;
+  }
+  .about__container .about__description h3 {
+    font-size: 2rem;
+  }
+  .about__container .about__description p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 20.25rem) {
+  .about__container .about__description h3 {
+    font-size: 2rem;
+  }
+  .about__container .about__description p {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=about.css.map */

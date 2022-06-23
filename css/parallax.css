@@ -1,0 +1,9 @@
+/** @format */
+.parallax {
+  background: url("../assets/images/projector-view.jpg") no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=parallax.css.map */

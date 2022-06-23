@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TaskPlace">
+    <link rel="stylesheet" href="../css/gallery-extension.css">
+    <link rel="icon" href="../assets/images/title-logo.png" sizes="16x16">
+    <title>TaskPlace</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--Animate CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet" />
+    <!--Popup Lightbox Js-->
+    <script src="js/jquery.popup.lightbox.js"></script>
+    <!--Popup Lightbox CSS-->
+    <link href="css/popup-lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+</head>
+
+<body>
+    <!-- header  -->
+    <header>
+        <nav class="navbar">
+            <div class="main__logo">
+                <figure>
+                    <a href="../index.html"><img src="../assets/images/logo.png" alt="logo"></a>
+                </figure>
+            </div>
+            <div class="hamburger__menu" id="hamburger-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <ul id="menu-list">
+                <li><a href="../index.html">home</a></li>
+                <li>
+                    <a href="#space" id="dropdown" onclick="dropDown()">space<i class="fas fa-angle-down"></i>
+
+                    </a>
+
+                    <div class="dropdown__menus">
+                        <a href="/office-space/">office space</a>
+                        <a href="/meeting-space/">meeting space</a>
+
+
+                    </div>
+                </li>
+
+                <!-- <li>
+                <a href="">office space</a>
+                <a href="">meeting space</a>
+            </li> -->
+                <li><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf7hFq07fu_maWakeJRiZYAQzFvrd9xpX0igfY7uF4EPOzAmg/viewform">book
+                        now</a>
+                </li>
+                <li><a href="/gallery/">gallery</a></li>
+                <li><a href="/about/">about</a></li>
+                <li><a href="/contact/">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="back-to-top-btn"><i class="fas fa-chevron-up"></i></i></button>
+    <div class="gallery__extension__bg ">
+        <div class="heading">
+            <h1> <a href="/home/"> Home </a><span></span> Gallery</h1>
+        </div>
+
+
+    </div>
+    <div class="secondary_headings">
+        <h2 class="">Let's have a little tour!
+        </h2>
+        <br>
+        <p class="">Study. Work. Connect with TaskPlace</p>
+    </div>
+    <hr>
+
+    <div class="img-container">
+        <img src="../assets/images/front-view.2.jpg" />
+
+        <img src="../assets/images/projector-view.jpg" />
+        <img src="../assets/images/chair-view.jpg" alt="Girls" />
+        <img src="../assets/images/coffee-time-view.jpg" alt="Fashion" />
+        <img src="../assets/images/locker-view.jpg" alt="Fashion" />
+        <img src="../assets/images/comfort-room-view.jpg" alt="Fashion" />
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer__container">
+            <div class="logo__and__about">
+                <figure>
+                    <img src="../assets/images/title-logo.png" alt="">
+                </figure>
+                <p>
+                    We are calling the attention of awesome students and working from home individuals who are
+                    looking
+                    for a comfy and cozy work/study space.</p>
+            </div>
+            <div class="links">
+                <h4>Links</h4>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i><a href="/home/">home</a></li>
+
+
+                    <li><i class="fas fa-angle-right"></i><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSf7hFq07fu_maWakeJRiZYAQzFvrd9xpX0igfY7uF4EPOzAmg/viewform?fbclid=IwAR3oZl6n2880JMyaWxeKwmEX1Nbk-AskRKZiRf9pWHXYYc0NAf3agFyaAn0">book
+                            now</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="/gallery/">gallery</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="/about/">about</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="/contact/">contact</a></li>
+                </ul>
+            </div>
+            <!-- contacts -->
+            <div class="contacts">
+                <h4>Contact Numbers</h4>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i>
+                        <span> 09608672105</span>
+                    </li>
+                    <li><i class="fas fa-angle-right"></i>
+                        <span> 09459929864</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="services">
+                <h4>Business Services</h4>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i>
+                        <a href="/meeting-space/">meeting space</a>
+                    </li>
+                    <li><i class="fas fa-angle-right"></i>
+                        <a href="/office-space/">office space</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+        <hr>
+        <div class="end__footer">
+            <div class="info">
+                <div class="copyright">
+                    <p> © TaskPlace, All rights reserved.</p>
+                </div>
+                <div class="privacy__terms__condition">
+                    <a href="https://www.termsfeed.com/live/ed09dd7b-fa6f-4503-bcf4-a517f79d7d66">Privacy Policy</a>
+                    <a href="https://www.termsfeed.com/live/c70a5a87-abac-47a3-96d7-beedffd463f3">Terms and
+                        Condition</a>
+                </div>
+
+            </div>
+            <div class="socials">
+                <ul class="social__icons">
+                    <li>
+                        <a href="https://www.facebook.com/taskplaceph">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.instagram.com/taskplaceph/?fbclid=IwAR096CdhcC8287djCHc4Ql8Q_z9ikPRaijAJDPdXoQQFLsHv0JaNnq6UJo4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/taskplace_ph?s=20">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@taskplaceph?">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/backToTopbtn.js"></script>
+    <script src="../js/stickyNavbar.js"></script>
+    <script src="./js/jquery.popup.lightbox.js"></script>
+    <script src="./js/jquery.popup.lightbox.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js"
+        integrity="sha512-TEY9MppoX49BydDCCSsdqDUihEAEdO2S2En3WRjPoM+4wBkLtE7HKJ/Xt34c46/XM0Qxf6+F5caDMejengSDdA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+    </script>
+
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".img-container").popupLightbox({
+                width: 600,
+                height: 450
+            });
+
+
+        });
+    </script>
+    <script>
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+
+</html>

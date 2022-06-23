@@ -1,0 +1,130 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=poppins&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  width: 100%;
+}
+
+.contact__container iframe {
+  width: 100%;
+  height: 100%;
+  max-height: 62rem;
+  border: none;
+}
+
+.contact__container .contact__form {
+  background: #414c64;
+  width: 100%;
+}
+
+.contact__container .contact__form h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.188rem;
+}
+
+.contact__container .contact__form h3 span {
+  color: #fbbf24;
+}
+
+.contact__container .contact__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3.125rem 3.125rem;
+}
+
+.contact__container .contact__form form input,
+.contact__container .contact__form form textarea,
+.contact__container .contact__form form select {
+  background: #fff;
+  border: none;
+  display: block;
+  margin: 0.938rem 0;
+  padding: 0.938rem;
+  font-family: "Poppins", sans-serif;
+  outline-color: #fbbf24;
+  color: #000;
+}
+
+.contact__container .contact__form form #err-msg-name,
+.contact__container .contact__form form #err-msg-phone,
+.contact__container .contact__form form #err-msg-email,
+.contact__container .contact__form form #err-msg-textarea,
+.contact__container .contact__form form #err-msg-subject {
+  color: #e90404;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+.contact__container .contact__form form button {
+  margin: 0.938rem 0;
+  padding: 0.938rem;
+  background: #fbbf24;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border: none;
+}
+
+.contact__container .contact__form form button:hover {
+  opacity: 0.9;
+}
+
+.contact__container .contact__form form input[type="button"] {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: underline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  width: 6.25rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.contact__container .contact__form form input[type="button"]:hover {
+  color: #fbbf24;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width: 62rem) {
+  .contact__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contact__container iframe {
+    height: 50.938rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

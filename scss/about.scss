@@ -1,0 +1,146 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$primary__clr: #fff;
+$secondary__clr: #fbbf24;
+$darker__clr: #414c64;
+$semi__darker__clr: #a3a3a3;
+// font fam
+$font__poppins: "Poppins", sans-serif;
+//transition
+$main__transition: all 300ms ease-in-out;
+$template__grid: repeat(2, 1fr);
+.about__container {
+	background: url("../assets/images/about-bg.png");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 3.125rem 0 0 auto;
+	display: grid;
+	place-items: center;
+	height: auto;
+	width: 100%;
+	.about__image {
+		padding: 1.875rem;
+		img {
+			width: 100%;
+			max-width: 28.125rem;
+		}
+	}
+	.about__description {
+		text-align: center;
+
+		h3 {
+			font-family: $font__poppins;
+			font-size: 2.5rem;
+			color: $primary__clr;
+			span {
+				color: $secondary__clr;
+			}
+		}
+		p {
+			font-family: $font__poppins;
+			color: $primary__clr;
+			line-height: 2rem;
+			display: grid;
+			place-items: center;
+			margin: auto;
+			width: 60%;
+		}
+	}
+	form {
+		margin: 3.125rem;
+		position: relative;
+		button {
+			cursor: pointer;
+			color: $primary__clr;
+			font-family: $font__poppins;
+			text-transform: capitalize;
+			text-decoration: none;
+			height: 2.8rem;
+			border: 0.125rem solid $secondary__clr;
+			width: 10.625rem;
+			// border-radius: 6.25rem;
+			font-size: 1rem;
+			background: $secondary__clr;
+			transition: $main__transition;
+			&:hover {
+				border: 0.125rem solid $primary__clr;
+				transition: $main__transition;
+				background: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 62rem) {
+	.about__container {
+		display: grid;
+
+		// width: 90%;
+		place-items: center;
+		margin: 0 auto;
+		display: grid;
+
+		.about__description {
+			margin: 3.125rem 0.625rem;
+			p {
+				width: 100%;
+			}
+		}
+	}
+}
+@media (max-width: 36.75rem) {
+	.about__container {
+		display: grid;
+		place-items: center;
+		margin: 0 auto;
+		display: grid;
+		.about__description {
+			h3 {
+				font-size: 2rem;
+			}
+			margin: 0;
+			p {
+				width: 90%;
+			}
+		}
+	}
+}
+@media (max-width: 30.5rem) {
+	.about__container {
+		display: grid;
+		place-items: center;
+		margin: 0 auto;
+		display: grid;
+
+		.about__description {
+			h3 {
+				font-size: 2rem;
+			}
+			margin: 0;
+			p {
+				width: 90%;
+			}
+		}
+	}
+}
+// @media (max-width: 30.5rem) {
+// 	.about__container {
+// 		.about__description p {
+// 			width: 90%;
+// 		}
+// 	}
+// }
+@media (max-width: 20.25rem) {
+	.about__container {
+		.about__description {
+			h3 {
+				font-size: 2rem;
+			}
+			p {
+				width: 90%;
+			}
+		}
+	}
+}
