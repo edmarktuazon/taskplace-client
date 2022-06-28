@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,cAAc;AAEd,AAAA,SAAS,CAAC;EACT,UAAU,EAAE,0CAA0C,CAAC,SAAS;EAChE,MAAM,EAAE,KAAK;EACb,qBAAqB,EAAE,KAAK;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC3B",
-    "sources": [
-        "../scss/parallax.scss"
-    ],
-    "names": [],
-    "file": "parallax.css"
-}
+{"version":3,"sources":["../scss/parallax.scss","parallax.css"],"names":[],"mappings":"AAAA,aAAA;AAEA;EACC,gEAAA;EACA,aAAA;EACA,4BAAA;EACA,sBAAA;EACA,2BAAA;ACAD","file":"parallax.css"}

@@ -6,7 +6,6 @@
   width: 100%;
   /* fadeOutDown */
 }
-
 .main__home .main__headings {
   width: 80%;
   z-index: 5;
@@ -30,18 +29,15 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .main__home .main__headings h1 {
   margin: 0;
   font-size: 3.75rem;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-
 .main__home .main__headings h1 span {
   color: #fbbf24;
 }
-
 .main__home .main__headings h4 {
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -49,12 +45,10 @@
   font-weight: normal;
   margin: 0;
 }
-
 .main__home .main__headings form {
   margin-top: 3.125rem;
   position: relative;
 }
-
 .main__home .main__headings form button {
   cursor: pointer;
   color: #fff;
@@ -69,34 +63,28 @@
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 .main__home .main__headings form button:hover {
   border: 0.125rem solid #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   background: none;
 }
-
 .main__home .swiper {
   width: 100%;
   height: 100%;
 }
-
 .main__home .swiper-slide {
   width: 100%;
   height: 100vh;
 }
-
 .main__home .swiper-pagination-bullet-active {
   background: #fbbf24;
 }
-
 .main__home .swiper-button-prev,
 .main__home .swiper-button-next {
   color: #fff;
   margin: 0 1.125rem;
 }
-
 .main__home #back-to-top-btn {
   display: none;
   position: fixed;
@@ -117,13 +105,11 @@
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
 }
-
 .main__home #back-to-top-btn:hover,
 .main__home #back-to-top-btn:focus {
   background-color: #fbbf24;
   color: #fff;
 }
-
 .main__home .btnExit {
   -webkit-animation-duration: 0.25s;
           animation-duration: 0.25s;
@@ -132,7 +118,6 @@
   -webkit-animation-name: btnExit;
           animation-name: btnExit;
 }
-
 @-webkit-keyframes btnExit {
   from {
     opacity: 1;
@@ -143,7 +128,6 @@
             transform: translate3d(0, 100%, 0);
   }
 }
-
 @keyframes btnExit {
   from {
     opacity: 1;
@@ -190,14 +174,12 @@
             transform: translate3d(0, 0, 0);
   }
 }
-
 @media (max-width: 62rem) {
   .main__home .swiper-button-prev,
-  .main__home .swiper-button-next {
+.main__home .swiper-button-next {
     color: #fff;
   }
 }
-
 @media (max-width: 42.938rem) {
   .main__home .main__headings h1 {
     font-size: 2.8125rem;
@@ -207,7 +189,6 @@
     font-size: 1rem;
   }
 }
-
 @media (max-width: 36.75rem) {
   .main__home .main__headings h1 {
     font-size: 2.8125rem;
@@ -217,12 +198,11 @@
     font-size: 1rem;
   }
   .main__home .swiper-button-prev,
-  .main__home .swiper-button-next {
+.main__home .swiper-button-next {
     color: #fff;
     margin: 0;
   }
 }
-
 @media (max-width: 30.5rem) {
   .main__home .main__headings h1 {
     font-size: 2.1875rem;
@@ -232,7 +212,6 @@
     font-size: 0.875rem;
   }
 }
-
 @media (max-width: 20rem) {
   .main__home .main__headings {
     margin: 1.88rem 0;
@@ -244,5 +223,4 @@
   .main__home .main__headings h4 {
     font-size: 0.875rem;
   }
-}
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */

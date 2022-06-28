@@ -29,7 +29,6 @@ header .navbar {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 header .navbar.sticky {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -39,7 +38,6 @@ header .navbar.sticky {
   height: 6rem;
   width: 100%;
 }
-
 header .navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,14 +50,12 @@ header .navbar ul {
           align-items: center;
   margin-top: 1.875rem;
 }
-
 header .navbar ul li {
   list-style: none;
   margin: 1rem;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 header .navbar ul li a {
   font-weight: 400;
   display: -webkit-box;
@@ -78,22 +74,18 @@ header .navbar ul li a {
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
 }
-
 header .navbar ul li a:hover {
   color: #fbbf24;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 header .navbar ul li a .fa-angle-down {
   margin-left: 0.6rem;
 }
-
 header .navbar ul li a .fa-angle-down.trigger {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-
 header .navbar ul .dropdown__menus {
   display: none;
   z-index: -999;
@@ -105,7 +97,6 @@ header .navbar ul .dropdown__menus {
   -webkit-transform-origin: top center;
           transform-origin: top center;
 }
-
 header .navbar ul .dropdown__menus.link-drop {
   z-index: 999;
   display: block;
@@ -124,7 +115,6 @@ header .navbar ul .dropdown__menus.link-drop {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -132,7 +122,6 @@ header .navbar ul .dropdown__menus.link-drop {
             transform: rotateX(-90deg);
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -140,20 +129,17 @@ header .navbar ul .dropdown__menus.link-drop {
             transform: rotateX(-90deg);
   }
 }
-
 header .navbar ul .dropdown__menus.link-drop a {
   margin: 0.4rem;
   color: #a3a3a3;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 header .navbar ul .dropdown__menus.link-drop a:hover {
   color: #fbbf24;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 header .navbar .hamburger__menu {
   display: none;
 }
@@ -214,7 +200,6 @@ header .navbar .hamburger__menu {
             transform: translate3d(0, 100%, 0);
   }
 }
-
 /* Animations */
 .btnEntrance {
   -webkit-animation-duration: 0.5s;
@@ -250,7 +235,6 @@ header .navbar .hamburger__menu {
             transform: translate3d(0, 0, 0);
   }
 }
-
 .office__bg {
   background: url("../assets/images/office-bg.png") no-repeat;
   background-size: cover;
@@ -258,12 +242,10 @@ header .navbar .hamburger__menu {
   width: 100%;
   background-position: center;
 }
-
 .office__bg .heading {
   text-align: center;
   margin: 5.625rem 0;
 }
-
 .office__bg .heading h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,7 +261,6 @@ header .navbar .hamburger__menu {
   font-size: var(--step-3);
   margin: 6.25rem 0.625rem 0 0.625rem;
 }
-
 .office__bg .heading h1 a {
   margin: 6.25rem 0.625rem;
   color: #fff;
@@ -288,17 +269,14 @@ header .navbar .hamburger__menu {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 .office__bg .heading h1 a:hover {
   color: #fbbf24;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 .office__bg .heading h1 a .fa-house {
   margin-inline: 10px;
 }
-
 .office__bg .heading h1 span {
   width: 0.125rem;
   height: 2.5rem;
@@ -307,23 +285,18 @@ header .navbar .hamburger__menu {
 }
 
 .image__and__heading {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 3.125rem 6.25rem;
   gap: 6.25rem;
 }
-
 .image__and__heading .image img {
   width: 100%;
 }
-
 .image__and__heading .inner__text form {
   margin-bottom: 3.125rem;
   position: relative;
 }
-
 .image__and__heading .inner__text form button {
   cursor: pointer;
   color: #fff;
@@ -338,7 +311,6 @@ header .navbar .hamburger__menu {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 .image__and__heading .inner__text form button:hover {
   border: 0.125rem solid #fbbf24;
   -webkit-transition: all 300ms ease-in-out;
@@ -346,35 +318,29 @@ header .navbar .hamburger__menu {
   background: none;
   color: #fbbf24;
 }
-
 .image__and__heading .inner__text h2 {
   color: #414c64;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
 }
-
 .image__and__heading .inner__text hr {
   border: 0.0625rem dashed #ececec;
   margin-bottom: 1.875rem;
 }
-
 .image__and__heading .inner__text p {
   font-family: "Poppins", sans-serif;
   color: #a3a3a3;
 }
-
 .image__and__heading .inner__text table {
   border-collapse: collapse;
   width: 100%;
 }
-
 .image__and__heading .inner__text table th {
   padding-bottom: 0.75rem;
   text-align: left;
   background-color: #414c64;
   color: #fbbf24;
 }
-
 .image__and__heading .inner__text table td,
 .image__and__heading .inner__text table th {
   border: 0.0625rem solid #ddd;
@@ -382,15 +348,12 @@ header .navbar .hamburger__menu {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-
 .image__and__heading .inner__text table td {
   font-size: 14px;
 }
-
 .image__and__heading .inner__text table tr:nth-child(even) {
   background-color: #ececec;
 }
-
 .image__and__heading .inner__text table tr:hover {
   background-color: #414c64;
   color: #fbbf24;
@@ -399,21 +362,16 @@ header .navbar .hamburger__menu {
 footer {
   background: #414c64;
 }
-
 footer .footer__container {
   background: #414c64;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 1fr 1fr 1fr;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   margin: 0 6.25rem;
   gap: 3.125rem;
 }
-
 footer .footer__container .logo__and__about img {
   margin-left: -2.375rem;
 }
-
 footer .footer__container .logo__and__about,
 footer .footer__container .links,
 footer .footer__container .contacts,
@@ -421,7 +379,6 @@ footer .footer__container .socials,
 footer .footer__container .services {
   margin: 3.125rem 0;
 }
-
 footer .footer__container .logo__and__about p,
 footer .footer__container .links p,
 footer .footer__container .contacts p,
@@ -432,25 +389,20 @@ footer .footer__container .services p {
   font-size: 1rem;
   line-height: 1.875rem;
 }
-
 footer .footer__container .links h4 {
   color: #fff;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }
-
 footer .footer__container .links ul {
   padding: 0;
 }
-
 footer .footer__container .links ul li {
   list-style: none;
 }
-
 footer .footer__container .links ul li .fa-angle-right {
   color: #fff;
 }
-
 footer .footer__container .links ul li a {
   color: #a3a3a3;
   font-size: 1rem;
@@ -462,31 +414,25 @@ footer .footer__container .links ul li a {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 footer .footer__container .links ul li a:hover {
   color: #fbbf24;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 footer .footer__container .contacts h4 {
   color: #fff;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }
-
 footer .footer__container .contacts ul {
   padding: 0;
 }
-
 footer .footer__container .contacts ul li {
   list-style: none;
 }
-
 footer .footer__container .contacts ul li .fa-angle-right {
   color: #fff;
 }
-
 footer .footer__container .contacts ul span {
   color: #a3a3a3;
   font-size: 1rem;
@@ -499,29 +445,23 @@ footer .footer__container .contacts ul span {
   transition: all 300ms ease-in-out;
   cursor: text;
 }
-
 footer .footer__container .contacts ul span .fa-angle-right {
   color: #fff;
 }
-
 footer .footer__container .services h4 {
   color: #fff;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }
-
 footer .footer__container .services ul {
   padding: 0;
 }
-
 footer .footer__container .services ul li {
   list-style: none;
 }
-
 footer .footer__container .services ul li .fa-angle-right {
   color: #fff;
 }
-
 footer .footer__container .services ul li a {
   color: #a3a3a3;
   font-size: 1rem;
@@ -533,22 +473,18 @@ footer .footer__container .services ul li a {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 footer .footer__container .services ul li a:hover {
   color: #fbbf24;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-
 footer hr {
-  border: 0.063rem solid #7978783a;
+  border: 0.063rem solid rgba(121, 120, 120, 0.2274509804);
   width: 80%;
-  display: -ms-grid;
   display: grid;
   place-items: center;
   margin: auto;
 }
-
 footer .end__footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -559,11 +495,9 @@ footer .end__footer {
       -ms-flex-align: center;
           align-items: center;
 }
-
 footer .end__footer .privacy__terms__condition {
   display: inline-block;
 }
-
 footer .end__footer .privacy__terms__condition a {
   color: #a3a3a3;
   font-size: 0.875rem;
@@ -571,17 +505,14 @@ footer .end__footer .privacy__terms__condition a {
   text-decoration: none;
   text-transform: capitalize;
 }
-
 footer .end__footer .privacy__terms__condition a:nth-child(1) {
-  border-right: 0.063rem solid #a3a3a396;
+  border-right: 0.063rem solid rgba(163, 163, 163, 0.5882352941);
   padding: 0 0.625rem;
 }
-
 footer .end__footer .copyright {
   display: inline-block;
   margin: 0 0.8rem;
 }
-
 footer .end__footer .copyright p {
   color: #fff;
   font-size: 0.875rem;
@@ -598,25 +529,21 @@ footer .end__footer .copyright p {
   -webkit-margin-end: 0;
           margin-inline-end: 0;
 }
-
 footer .end__footer .socials .social__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 footer .end__footer .socials .social__icons h4 {
   color: #fff;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   margin: 0.625rem 0;
 }
-
 footer .end__footer .socials .social__icons li {
   list-style: none;
   margin-bottom: 0.25rem;
 }
-
 footer .end__footer .socials .social__icons li a {
   background-color: #fbbf24;
   color: #fff;
@@ -683,13 +610,13 @@ footer .end__footer .socials .social__icons li a {
     display: block;
     margin: 0.355rem auto;
   }
+
   .image__and__heading {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(31.25rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(31.25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(31.25rem, 1fr));
     margin: 3.25rem 1.875rem;
   }
+
   footer .footer__container {
     display: block;
     margin: 0 3.25rem;
@@ -716,25 +643,19 @@ footer .end__footer .socials .social__icons li a {
     text-align: center;
   }
 }
-
 @media (max-width: 42.938rem) {
   .image__and__heading {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   }
 }
-
 @media (max-width: 36.75rem) {
   .image__and__heading {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(18.75rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   }
+
   footer .end__footer {
-    display: -ms-grid;
     display: grid;
     place-items: center;
   }
@@ -755,29 +676,24 @@ footer .end__footer .socials .social__icons li a {
     margin-bottom: 0.25rem;
   }
 }
-
 @media (max-width: 30.5rem) {
   .meeting__bg .heading h1 {
     font-size: 25px;
   }
+
   .image__and__heading {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(10.375rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(10.375rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10.375rem, 1fr));
   }
 }
-
 @media (max-width: 20rem) {
   .meeting__bg .heading h1 {
     font-size: 1.438rem;
   }
+
   .image__and__heading {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(9.375rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr));
     margin: 1.25rem 1.25rem;
   }
-}
-/*# sourceMappingURL=office.css.map */
+}/*# sourceMappingURL=office.css.map */
